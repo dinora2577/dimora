@@ -3,7 +3,7 @@ import { HiMiniBars2 } from "react-icons/hi2";
 
 const Navbar = () => {
     const[toggle,setToggle] =useState(false)
-    console.log(toggle);
+    
   return (
    
 
