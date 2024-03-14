@@ -1,8 +1,11 @@
 import React from 'react'
 import Gif from"../assets/kk.gif" 
+import ReactImg from "../assets/react.png"
+import ReduxImg from "../assets/redux.png"
+import Sass from "../sass.png"
 const Header = () => {
   return (
-    <div className='bg-[#EDF2F8] w-full h-[100vh] items-center'>
+    <div className='pt-[200px] lg:pt-0 bg-[#EDF2F8] w-full h-[100vh] flex lg:flex-row flex-col items-center justify-center gap-10'>
         {/* download cv */}
         <div className='flex flex-col gap-6 md:gap-10 items-center  md:items-end w-full max-w-[400px]'>
           <div className='flex justify-center items-center bg-[white] gap-10 w-full max-w-[200px] text-center rounded-[15px] shadow-lg '>
@@ -21,10 +24,20 @@ const Header = () => {
 
         {/* gif for developer */}
 
-        <div>
+        <div className='text-center'>
           <img src={Gif} alt="Gif" />
         </div>
-        <div></div>
+        <div className=' flex lg:flex-col gap-10'>
+          <div className='w-[75px] g-[75px] lg:w-[150px] lg:h-[150px] rounded-full bg-white shadow-2xl flex justify-center items-center '>
+            <img src={ReduxImg} className='w-[80%]' alt="img" />
+          </div>
+          <div className='lg:w-[200px] lg: h-[200px] w-[200px] lg:h-[200px] rounded-full bg-white shadow-2xl'>
+            <img src={ReactImg} className='w-[90%]' alt="img" />
+          </div>
+          <div className='w-[50px] h-[50px] lg:w-[100px] lg:h-[100px] rounded-full bg-white shadow-2xl'>
+            <img src={Sass} className='w-[80%]' alt="img" />
+          </div>
+        </div>
     </div>
   )
 }
