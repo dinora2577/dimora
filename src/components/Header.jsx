@@ -17,8 +17,7 @@ const Header = () => {
             </div> 
             <br />
           <div className='w-full  bg-[white] max-w-[300px] p-3 text-slate-400 text-[20px] rounded-[15px] shadow-lg'>FRONTEND/REACT DEVELOPER/</div>
-          <button type="button" class="text-white bg-[#313bac] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm 
-          px-7 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Download CV</button>
+          <a href='rezume.pdf' download type="button" class="text-white bg-[#313bac] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Downlaod CV</a>
 
         </div>
 
